@@ -1,0 +1,109 @@
+<ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>
+        BARMATE 
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content class="home-content">
+    <div class="search-filter-container">
+      <ion-searchbar placeholder="Pesquisar por um coquetel..." (ionInput)="search($event)"></ion-searchbar>
+      <ion-button (click)="toggleFilters()" style="color: #502702;">
+        <ion-icon name="filter-outline"></ion-icon>
+      </ion-button>
+    </div>
+  
+  <ion-modal [isOpen]="showFilters" (didDismiss)="showFilters = false">
+      <ng-template>
+        <ion-header>
+          <ion-toolbar>
+            <ion-title>Filtros</ion-title>
+            <ion-buttons slot="end">
+              <ion-button (click)="toggleFilters()">
+                <ion-icon name="close-outline"></ion-icon>
+              </ion-button>
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <ion-list>
+            <ion-item>
+              <ion-label>Filtrar por:</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>Alcoólico</ion-label>
+              <ion-select placeholder="Selecione um" (ionChange)="filterByAlcoholic($event)">
+                <ion-select-option value="Alcoholic">Alcoólico</ion-select-option>
+                <ion-select-option value="Non_Alcoholic">Não alcoólico</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+              <ion-label>Categoria</ion-label>
+              <ion-select placeholder="Selecione um" (ionChange)="filterByCategory($event)">
+                <ion-select-option value="Ordinary_Drink">Bebida comum</ion-select-option>
+                <ion-select-option value="Cocktail">Coquetel</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+              <ion-label>Copo</ion-label>
+              <ion-select placeholder="Selecione um" (ionChange)="filterByGlass($event)">
+                <ion-select-option value="Cocktail_glass">Copo de coquetel</ion-select-option>
+                <ion-select-option value="Champagne_flute">Taça de champanhe</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+              <ion-label>Redefinir filtros</ion-label>
+              <ion-button (click)="resetFilters()">Redefinir</ion-button>
+            </ion-item>
+          </ion-list>
+        </ion-content>
+      </ng-template>
+    </ion-modal>
+
+
+
+    <ion-list class="drink-list">
+
+      <div class="propaganda" *ngIf="showPropagandaCard">
+        <ion-card>
+          <img src="../../../../assets/propaganda.png">
+          <ion-card-header>
+            <ion-card-title class="title">Promoção Especial!</ion-card-title>
+            <ion-card-subtitle>Somente Segundas e Sextas</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Aproveite nossa promoção especial em diversos drinks!
+          </ion-card-content>
+        </ion-card>
+      </div>
+      
+      <ion-card *ngFor="let cocktail of cocktails" class="drink-card">
+        <img [src]="cocktail.strDrinkThumb" />
+        <ion-card-header>
+          <ion-card-title>{{ cocktail.strDrink }}</ion-card-title>
+          <ion-card-subtitle>{{ cocktail.strCategory }}</ion-card-subtitle>
+          <ion-card-subtitle>{{ cocktail.strIngredient1 }}</ion-card-subtitle>
+          <ion-card-subtitle>{{ cocktail.strInstructions }}</ion-card-subtitle>
+        </ion-card-header>
+        <div class="info-backdrop">
+          <h2>{{ cocktail.strDrink }}</h2>
+        </div>
+      </ion-card>
+      <ion-infinite-scroll threshold="100px" (ionInfinite)="loadCocktails($event)">
+        <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Carregando mais coquetéis...">
+        </ion-infinite-scroll-content>
+      </ion-infinite-scroll>
+    </ion-list>
+  
+  
+</ion-content>
+  
+
+
+ 
+
+
+ 
+  
+ 

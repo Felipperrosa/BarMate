@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title >Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-avatar>
+        <img src="assets/avatar.jpg">
+      </ion-avatar>
+      
+    </ion-card-header>
+    <ion-card-content>
+      <ion-card-title class="text-center">{{user().name}}</ion-card-title>
+      <p class="text-center">Cliente</p>
+    </ion-card-content>
+    
+    <ion-button (click)="signOut()" fill="outline" class="botao">
+      Deslogar
+      <ion-icon  name="exit-outline"></ion-icon>
+  </ion-button>
+  </ion-card>
+</ion-content>

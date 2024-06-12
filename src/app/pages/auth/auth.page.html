@@ -1,0 +1,45 @@
+<app-header title="Login"></app-header>
+<ion-content>
+    <h1  class="d-flex-center">Login</h1>
+    <div class="d-flex-center">
+        <form [formGroup]="form" class="auth-form" (ngSubmit)="submit()" (keypress.enter)="submit()">
+
+            
+            <app-custom-input
+                autocomplete="email" 
+                icon="mail-outline" 
+                [control]="form.controls.email" 
+                type="email" label="Email">
+            </app-custom-input>
+
+            <div class="validators" *ngIf="form.controls.email.errors && form.controls.email.touched">
+                <div *ngIf="form.controls.email.errors?.['required']">O email é necessário</div>
+                <div *ngIf="form.controls.email.errors?.['email']">Coloque um email Valido</div>
+            </div>
+
+            <app-custom-input 
+                icon="lock-closed-outline" 
+                [control]="form.controls.password"
+                type="password" label="Senha" >
+            </app-custom-input>
+
+            <div class="validators" *ngIf="form.controls.password.errors && form.controls.password.touched">
+                <div *ngIf="form.controls.password.errors?.['required']">A Senha é necessária</div>        
+            </div>
+
+            <p routerLink="forgot-password" class="ion-text-end">Esqueceu a senha</p>
+
+            <ion-button expand="block" mode="ios" class="submit" type="submit" [disabled]="form.invalid">
+                Logar
+                <ion-icon slot="end" name="log-in-outline"></ion-icon>
+            </ion-button>
+            <ion-button class="ion-margin-top" routerLink="sign-up" expand="block" mode="ios" fill="outline">
+                Cadastre-se
+                <ion-icon slot="end" name="person-add-outline"></ion-icon>
+            </ion-button>
+        </form>
+    </div>    
+   
+  
+  
+</ion-content>
