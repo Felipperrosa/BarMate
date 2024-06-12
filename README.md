@@ -3,20 +3,12 @@
 ##
 
 ### Sobre 
+![WhatsApp Image 2024-06-06 at 12 31 29](https://github.com/Felipperrosa/BarMate/assets/117481386/2e13752f-dcca-46ef-80ce-a9bce1e0749d)
+
 
 ##
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Barmate App</title>
-</head>
-<body>
-    <h1>Barmate App - README</h1>
 
-  <h2verview</h2>
-    <p>
+   <p>
         Bem-vindo ao repositório do aplicativo Barmate! Este projeto visa criar um aplicativo móvel para o Barmate, um pub conhecido por sua atmosfera acolhedora, drinks artesanais e uma seleção excepcional de cervejas. Localizado no coração da cidade, o Barmate rapidamente se tornou o ponto de encontro preferido para aqueles que buscam um ambiente descontraído e amigável. O aplicativo facilita o processo de reserva e oferece ofertas exclusivas e eventos especiais para fortalecer a conexão entre o Barmate e sua comunidade.
     </p>
 
@@ -80,7 +72,7 @@
         <li><strong>Perfil:</strong> Exibe as informações cadastradas do usuário.</li>
         <li><strong>Reserva:</strong> Permite ao cliente marcar o dia de sua reserva.</li>
     </ul>
-![WhatsApp Image 2024-06-06 at 12 31 30 (1)](https://github.com/Felipperrosa/BarMate/assets/117481386/a16d3371-88a9-42a8-80d4-804f34a190c4)
+
 
 
 
