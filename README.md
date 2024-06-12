@@ -29,6 +29,7 @@
         A identidade visual do Barmate é simples, utilizando tons de cinza claro com um toque de verde, laranja queimado e marrom.
     </p>
     
+![image](https://github.com/Felipperrosa/BarMate/assets/117481386/fdd8bc99-9bc6-4d9d-9c98-544ac9d7fa33)
 
 
     
