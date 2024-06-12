@@ -2,8 +2,6 @@
 <h2>Sobre</h2>
 
 
-##
-
    <p>
         Bem-vindo ao repositório do aplicativo Barmate! Este projeto visa criar um aplicativo móvel para o Barmate, um pub conhecido por sua atmosfera acolhedora, drinks artesanais e uma seleção excepcional de cervejas. Localizado no coração da cidade, o Barmate rapidamente se tornou o ponto de encontro preferido para aqueles que buscam um ambiente descontraído e amigável. O aplicativo facilita o processo de reserva e oferece ofertas exclusivas e eventos especiais para fortalecer a conexão entre o Barmate e sua comunidade.
     </p>
