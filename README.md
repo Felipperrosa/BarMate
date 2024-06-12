@@ -1,9 +1,5 @@
-### BarMate
 
-##
-
-### Sobre 
-![WhatsApp Image 2024-06-06 at 12 31 29](https://github.com/Felipperrosa/BarMate/assets/117481386/2e13752f-dcca-46ef-80ce-a9bce1e0749d)
+#### Sobre 
 
 
 ##
@@ -72,7 +68,16 @@
         <li><strong>Perfil:</strong> Exibe as informações cadastradas do usuário.</li>
         <li><strong>Reserva:</strong> Permite ao cliente marcar o dia de sua reserva.</li>
     </ul>
-
+    
+    
+![WhatsApp Image 2024-06-06 at 12 31 29 (1)](https://github.com/Felipperrosa/BarMate/assets/117481386/88d3f0b0-59c6-48ac-ae2e-8c6f90526116)
+![WhatsApp Image 2024-06-06 at 12 31 29](https://github.com/Felipperrosa/BarMate/assets/117481386/29929a78-0747-4c6d-be57-195456ccc311)
+![WhatsApp Image 2024-06-06 at 12 31 31](https://github.com/Felipperrosa/BarMate/assets/117481386/0fdcc04d-fd77-4ca6-9b3d-4d5f3c79a9bc)
+![WhatsApp Image 2024-06-06 at 12 31 31 (1)](https://github.com/Felipperrosa/BarMate/assets/117481386/efb06741-3288-4700-adf0-c8ac6651fc03)
+![WhatsApp Image 2024-06-10 at 10 39 03](https://github.com/Felipperrosa/BarMate/assets/117481386/86c6d8c7-55c8-400b-ad62-fd54ef4922ef)
+![WhatsApp Image 2024-06-06 at 12 31 30 (1)](https://github.com/Felipperrosa/BarMate/assets/117481386/7047f033-9f21-4b27-bf1a-2a704b845d8d)
+![WhatsApp Image 2024-06-06 at 12 31 30 (2)](https://github.com/Felipperrosa/BarMate/assets/117481386/36a6d920-43b2-4277-8a33-20b28b8e0c2f)
+![WhatsApp Image 2024-06-06 at 12 31 30](https://github.com/Felipperrosa/BarMate/assets/117481386/d158e0ea-8763-4333-a9f7-979d04a7a1af)
 
 
 
