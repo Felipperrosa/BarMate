@@ -29,12 +29,13 @@
         A identidade visual do Barmate é simples, utilizando tons de cinza claro com um toque de verde, laranja queimado e marrom.
     </p>
     
-![image](https://github.com/Felipperrosa/BarMate/assets/117481386/3a0287dd-9012-4d3c-b009-093c382f46fc)
+
 
     
 
    <h3>Slogan</h3>
-    ![image](https://github.com/Felipperrosa/BarMate/assets/117481386/95876b15-6e31-4a56-b672-2bc228d50f9c)
+   
+   ![image](https://github.com/Felipperrosa/BarMate/assets/117481386/3a0287dd-9012-4d3c-b009-093c382f46fc)
 
    <p>
         "Um copo atrás de outro" – Um slogan curto e memorável que reforça a experiência contínua e agradável de beber no Barmate.
