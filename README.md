@@ -71,7 +71,6 @@
     
     
  ![WhatsApp Image 2024-06-06 at 12 31 29 (1)](https://github.com/Felipperrosa/BarMate/assets/117481386/88d3f0b0-59c6-48ac-ae2e-8c6f90526116)
- <br>
  ![WhatsApp Image 2024-06-06 at 12 31 29](https://github.com/Felipperrosa/BarMate/assets/117481386/29929a78-0747-4c6d-be57-195456ccc311)
  ![WhatsApp Image 2024-06-06 at 12 31 31](https://github.com/Felipperrosa/BarMate/assets/117481386/0fdcc04d-fd77-4ca6-9b3d-4d5f3c79a9bc)
  ![WhatsApp Image 2024-06-06 at 12 31 31 (1)](https://github.com/Felipperrosa/BarMate/assets/117481386/efb06741-3288-4700-adf0-c8ac6651fc03)
